@@ -1,4 +1,4 @@
-# Bahriddin Khamidov | Front-End Developer
+# Hi! I'm Bahriddin Khamidov | Backend Developer
 
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Looking%20for%20Opportunities-green?style=flat-square" alt="Status" />
@@ -6,7 +6,7 @@
 </p>
 
 ### About Me
-Professional front-end developer focused on building premium web applications with clean, high-performance code. Specialized in modern JavaScript ecosystems and interactive user interfaces. Currently expanding expertise into full-stack development.
+Professional back-end developer focused on building premium web applications with clean, high-performance code. Specialized in modern JavaScript ecosystems and interactive user interfaces. Currently expanding expertise into full-stack development.
 
 ---
 
