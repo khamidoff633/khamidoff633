@@ -98,6 +98,20 @@ const bahriddin = {
 
 ---
 
+## 🟡 Pac-Man Eats My Commits
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake.svg" />
+  <img alt="Pac-Man eats commits" src="https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
 ## 📈 Activity Graph
 
 <div align="center">
