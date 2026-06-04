@@ -15,6 +15,7 @@ Professional back-end developer focused on building premium web applications wit
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,nodejs,express,mongodb,figma,git,vscode&theme=dark" />
+    <img src="file:///Users/bahriddinxamidov/Downloads/anonymous-cyber-crime-criminal-hack-hacker-svgrepo-com.svg" />
   </a>
 </p>
 
