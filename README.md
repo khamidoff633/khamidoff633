@@ -32,11 +32,8 @@
 
 ## ⚡ About Me
 
-<!-- 
-  ⬇️ RASM: khamidoff633/khamidoff633 repoga "hacker.png" nomi bilan yuklang
-  Yuklangandan keyin quyidagi src avtomatik ishlaydi
--->
-<img align="right" width="320" src="https://raw.githubusercontent.com/khamidoff633/khamidoff633/main/hacker.png"/>
+<!-- HACKER SVG — repoga yuklang: khamidoff633/khamidoff633/main/hacker.svg -->
+<img align="right" width="300" src="https://raw.githubusercontent.com/khamidoff633/khamidoff633/main/hacker.svg"/>
 
 <br/><br/>
 
