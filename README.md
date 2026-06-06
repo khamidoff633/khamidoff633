@@ -32,31 +32,40 @@
 
 ## ⚡ About Me
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif"/>
+<!-- CINEMATIC dark hacker at desk with multiple monitors -->
+<img align="right" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
 
-<br/>
+<br/><br/>
 
-<h3>🖥️ &nbsp;Who Am I?</h3>
+### 🖥️ &nbsp;`whoami`
 
-> **17 y/o Backend Developer** from Samarqand, Uzbekistan 🇺🇿
-> Building real APIs, learning hard, shipping fast.
+```bash
+$ cat bahriddin.txt
 
-<br/>
-
-| | |
-|---|---|
-| 🔭 **Working on** | REST APIs & Backend Systems |
-| 🌱 **Learning** | Node.js · MongoDB · TypeScript · Docker |
-| 🎯 **Goals** | Full-time Job · Freelance · Open Source |
-| ⚡ **Stack** | Node.js · Express · MongoDB · React |
-| 📬 **Telegram** | [@bakhridd1n_dev](https://t.me/bakhridd1n_dev) |
-| 📧 **Email** | bahriddinhamidov057@gmail.com |
-| 🟢 **Status** | **Open to Work — Hire me!** |
-
-<br/>
-
+  Name     → Bahriddin Khamidov
+  Age      → 17  # Young. Serious. Hungry.
+  Location → Samarqand, Uzbekistan 🇺🇿
+  Role     → Backend Developer
+  Status   → Open to Work 🟢
 ```
-💬 Motto: "17 years old. No excuses. Just code."
+
+```bash
+$ cat skills.txt
+
+  Primary  → Node.js · Express · MongoDB
+  Learning → TypeScript · Docker · PostgreSQL
+  Frontend → React · HTML · CSS · JavaScript
+  Tools    → Git · VS Code · Postman · Linux
+```
+
+```bash
+$ cat goals.txt
+
+  [x] Learn backend development
+  [ ] Get a full-time job 💼
+  [ ] Freelance projects 💰
+  [ ] Contribute to OSS 🌍
+  [ ] Build something people use
 ```
 
 <br clear="right"/>
