@@ -32,8 +32,11 @@
 
 ## ⚡ About Me
 
-<!-- CINEMATIC dark hacker at desk with multiple monitors -->
-<img align="right" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
+<!-- 
+  ⬇️ RASM: khamidoff633/khamidoff633 repoga "hacker.png" nomi bilan yuklang
+  Yuklangandan keyin quyidagi src avtomatik ishlaydi
+-->
+<img align="right" width="320" src="https://raw.githubusercontent.com/khamidoff633/khamidoff633/main/hacker.png"/>
 
 <br/><br/>
 
