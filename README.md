@@ -3,7 +3,7 @@
 <!-- WAVING HEADER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1a2e,100:00D9FF&height=250&section=header&text=Bahriddin%20Khamidov&fontSize=58&fontColor=00D9FF&animation=fadeIn&fontAlignY=40&desc=Backend%20Developer%20%7C%20Node.js%20%7C%20MongoDB%20%7C%20Express&descAlignY=60&descColor=CCD6F6&descSize=19"/>
 
-<!-- TYPING — very slow -->
+<!-- TYPING -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=6000&pause=2500&color=00D9FF&center=true&vCenter=true&width=700&height=50&lines=🚀+17+y%2Fo+Backend+Developer+from+UZ;⚙️+Building+Scalable+REST+APIs;💡+Node.js+%7C+MongoDB+%7C+TypeScript;🎯+Clean+Code.+Real+Solutions.;💼+Open+to+Work+—+Let%27s+Connect!" />
 
 <br/>
@@ -30,64 +30,36 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
+## ⚡ About Me
 
-<!-- MacBook + hoodie hacker GIF — raw githubusercontent, ishonchli -->
-<img align="right" alt="Hacker" width="360" src="https://raw.githubusercontent.com/rajput2107/rajput2107/master/Assets/Developer.gif"/>
+<img align="right" width="380" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif"/>
 
 <br/>
 
-<!-- ABOUT ME — styled info cards using HTML table -->
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td>
+<h3>🖥️ &nbsp;Who Am I?</h3>
 
-```javascript
-const bahriddin = {
-  name     : "Bahriddin Khamidov",
-  age      :  17,   // 🔥 Young & Hungry
-  location : "Samarqand, Uzbekistan 🇺🇿",
-  role     : "Backend Developer",
-  status   : "🟢 Open to Work — Hire me!",
+> **17 y/o Backend Developer** from Samarqand, Uzbekistan 🇺🇿
+> Building real APIs, learning hard, shipping fast.
 
-  learning : [
-    "Node.js", "Express.js",
-    "MongoDB", "TypeScript",
-    "System Design", "Docker"
-  ],
+<br/>
 
-  goals    : [
-    "Get a Job 💼",
-    "Freelance Projects 💰",
-    "Build Real Products 🏗️",
-    "Contribute to OSS 🌍"
-  ],
+| | |
+|---|---|
+| 🔭 **Working on** | REST APIs & Backend Systems |
+| 🌱 **Learning** | Node.js · MongoDB · TypeScript · Docker |
+| 🎯 **Goals** | Full-time Job · Freelance · Open Source |
+| ⚡ **Stack** | Node.js · Express · MongoDB · React |
+| 📬 **Telegram** | [@bakhridd1n_dev](https://t.me/bakhridd1n_dev) |
+| 📧 **Email** | bahriddinhamidov057@gmail.com |
+| 🟢 **Status** | **Open to Work — Hire me!** |
 
-  contact  : {
-    telegram : "@bakhridd1n_dev",
-    github   : "khamidoff633",
-    email    : "bahriddinhamidov057@gmail.com",
-  },
+<br/>
 
-  motto    : "17 years old. 0 excuses. 🔥"
-};
+```
+💬 Motto: "17 years old. No excuses. Just code."
 ```
 
-</td>
-</tr>
-</table>
-
 <br clear="right"/>
-
-<!-- ANIMATED INFO CARDS -->
-<div align="center">
-
-<img src="https://img.shields.io/badge/🎂_Age-17_Years_Old-0d1117?style=for-the-badge&labelColor=00D9FF&color=0d1117"/>
-<img src="https://img.shields.io/badge/📍_Location-Samarqand,_UZ-0d1117?style=for-the-badge&labelColor=1a1a2e&color=0d1117"/>
-<img src="https://img.shields.io/badge/💼_Status-Open_to_Work-00D9FF?style=for-the-badge&labelColor=0d1117&color=0a7c59"/>
-<img src="https://img.shields.io/badge/⚡_Focus-Backend_Dev-0d1117?style=for-the-badge&labelColor=1a1a2e&color=0d1117"/>
-
-</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
