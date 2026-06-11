@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO SVG -->
-<svg width="100%" viewBox="0 0 860 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 860 260" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
   <defs>
     <radialGradient id="bgRadial" cx="50%" cy="40%" r="70%">
       <stop offset="0%"   stop-color="#0d1829"/>
@@ -123,7 +123,7 @@
 
 <br/>
 
-<svg width="600" viewBox="0 0 600 48" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" viewBox="0 0 600 48" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
   <defs>
     <filter id="btnGlow">
       <feGaussianBlur stdDeviation="2.5" result="b"/>
@@ -131,7 +131,7 @@
     </filter>
   </defs>
 
-  <a href="https://t.me/bakhridd1n_dev">
+  <a href="[https://t.me/bakhridd1n_dev](https://t.me/bakhridd1n_dev)">
     <rect x="4" y="6" width="130" height="34" rx="17" fill="#04101e" stroke="#2CA5E0" stroke-width="1.2"/>
     <g transform="translate(18,17) scale(0.72)" fill="#2CA5E0">
       <path d="M22.265 2.428L1.064 10.979c-1.454.582-1.446 1.39-.265 1.75l5.45 1.697 12.607-7.947c.594-.362 1.138-.167.692.23L8.093 18.044l-.378 5.69c.554 0 .8-.254 1.11-.553l2.66-2.583 5.528 4.082c1.02.562 1.753.272 2.007-.946l3.63-17.1c.372-1.49-.567-2.165-1.384-1.806z"/>
@@ -148,7 +148,7 @@
     <text x="216" y="28" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#EA4335">Gmail</text>
   </a>
 
-  <a href="https://github.com/khamidoff633">
+  <a href="[https://github.com/khamidoff633](https://github.com/khamidoff633)">
     <rect x="274" y="6" width="120" height="34" rx="17" fill="#04101e" stroke="#6e40c9" stroke-width="1.2"/>
     <g transform="translate(288,13) scale(0.83)">
       <path fill="#9B59D6" d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .267.18.579.688.481C17.138 18.163 20 14.418 20 10 20 4.477 15.523 0 10 0z"/>
@@ -173,7 +173,7 @@
 ---
 
 <div align="center">
-<svg width="100%" viewBox="0 0 860 310" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 860 310" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
   <defs>
     <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%"   stop-color="#0b0b18"/>
@@ -454,7 +454,7 @@
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=khamidoff633&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00D9FF&line=7B2FFF&point=FF6B35&area=true)](https://github.com/khamidoff633)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=khamidoff633&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00D9FF&line=7B2FFF&point=FF6B35&area=true)]([https://github.com/khamidoff633](https://github.com/khamidoff633))
 
 </div>
 
@@ -464,16 +464,16 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake.svg"/>
-  <img alt="snake" src="https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)"  srcset="[https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake-dark.svg](https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake-dark.svg)"/>
+  <source media="(prefers-color-scheme: light)" srcset="[https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake.svg](https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake.svg)"/>
+  <img alt="snake" src="[https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake-dark.svg](https://raw.githubusercontent.com/khamidoff633/khamidoff633/output/github-contribution-grid-snake-dark.svg)" width="100%"/>
 </picture>
 </div>
 
 ---
 
 <div align="center">
-<svg width="100%" viewBox="0 0 860 130" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 860 130" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
   <defs>
     <linearGradient id="fGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#7B2FFF" stop-opacity="0"/>
