@@ -1,15 +1,14 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════ HERO SVG ═══ -->
-<svg width="100%" viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg">
+<!-- ═══════════════════════════════════════ HERO BANNER ═══ -->
+<!-- Static SVG — GitHub-compatible (no animate tags) -->
+<svg width="100%" viewBox="0 0 860 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Noir deep background -->
     <radialGradient id="bgR" cx="50%" cy="35%" r="75%">
       <stop offset="0%"   stop-color="#0a1628"/>
       <stop offset="50%"  stop-color="#060c18"/>
       <stop offset="100%" stop-color="#020509"/>
     </radialGradient>
-    <!-- 3D name gradient: gold-white-cyan -->
     <linearGradient id="nameG" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#00cfff"/>
       <stop offset="28%"  stop-color="#80eaff"/>
@@ -17,16 +16,14 @@
       <stop offset="72%"  stop-color="#c4b0ff"/>
       <stop offset="100%" stop-color="#7B2FFF"/>
     </linearGradient>
-    <!-- Shadow depth for 3D -->
     <linearGradient id="nameS" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#003355" stop-opacity="0.7"/>
       <stop offset="50%"  stop-color="#1a1a44" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#220044" stop-opacity="0.7"/>
     </linearGradient>
-    <!-- Neon glow filter -->
     <filter id="neonGlow" x="-25%" y="-70%" width="150%" height="240%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="8"  result="b1"/>
-      <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="b2"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="b2"/>
       <feGaussianBlur in="SourceGraphic" stdDeviation="3"  result="b3"/>
       <feMerge>
         <feMergeNode in="b2"/>
@@ -35,23 +32,14 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <!-- Subtle noise grid -->
-    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0L0 0L0 40" fill="none" stroke="#00D9FF" stroke-width="0.25" stroke-opacity="0.06"/>
-    </pattern>
-    <clipPath id="hClip"><rect width="860" height="280" rx="16"/></clipPath>
-    <!-- Sweep light -->
-    <linearGradient id="swpG" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#00D9FF" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <!-- Particle glow -->
-    <filter id="pGlow">
-      <feGaussianBlur stdDeviation="2" result="b"/>
+    <filter id="subtleGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <!-- Underline gradient -->
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0L0 0L0 40" fill="none" stroke="#00D9FF" stroke-width="0.25" stroke-opacity="0.07"/>
+    </pattern>
+    <clipPath id="hClip"><rect width="860" height="240" rx="16"/></clipPath>
     <linearGradient id="ulG" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#00D9FF" stop-opacity="0"/>
       <stop offset="30%"  stop-color="#00D9FF" stop-opacity="1"/>
@@ -59,111 +47,33 @@
       <stop offset="70%"  stop-color="#7B2FFF" stop-opacity="1"/>
       <stop offset="100%" stop-color="#7B2FFF" stop-opacity="0"/>
     </linearGradient>
-    <!-- Diagonal light streak -->
     <linearGradient id="streakG" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="40%"  stop-color="#00D9FF" stop-opacity="0.05"/>
-      <stop offset="60%"  stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="0%"   stop-color="#00D9FF" stop-opacity="0"/>
+      <stop offset="40%"  stop-color="#00D9FF" stop-opacity="0.04"/>
+      <stop offset="60%"  stop-color="#ffffff" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#7B2FFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="locG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00D9FF" stop-opacity="0.3"/>
+      <stop offset="50%"  stop-color="#7B2FFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00D9FF" stop-opacity="0.3"/>
     </linearGradient>
   </defs>
 
   <g clip-path="url(#hClip)">
-    <!-- BG layers -->
-    <rect width="860" height="280" fill="url(#bgR)"/>
-    <rect width="860" height="280" fill="url(#grid)"/>
+    <!-- Background -->
+    <rect width="860" height="240" fill="url(#bgR)"/>
+    <rect width="860" height="240" fill="url(#grid)"/>
     <!-- Diagonal ambient streak -->
-    <rect x="-100" y="-100" width="1200" height="600" fill="url(#streakG)" opacity="0.6"/>
+    <rect x="-100" y="-80" width="1200" height="500" fill="url(#streakG)"/>
 
-    <!-- Vanishing floor lines -->
-    <g stroke="#00D9FF" stroke-opacity="0.07" stroke-width="0.7">
-      <line x1="430" y1="180" x2="0"   y2="280"/>
-      <line x1="430" y1="180" x2="86"  y2="280"/>
-      <line x1="430" y1="180" x2="172" y2="280"/>
-      <line x1="430" y1="180" x2="258" y2="280"/>
-      <line x1="430" y1="180" x2="344" y2="280"/>
-      <line x1="430" y1="180" x2="430" y2="280"/>
-      <line x1="430" y1="180" x2="516" y2="280"/>
-      <line x1="430" y1="180" x2="602" y2="280"/>
-      <line x1="430" y1="180" x2="688" y2="280"/>
-      <line x1="430" y1="180" x2="774" y2="280"/>
-      <line x1="430" y1="180" x2="860" y2="280"/>
-      <line x1="0" y1="205" x2="860" y2="205"/>
-      <line x1="0" y1="225" x2="860" y2="225"/>
-      <line x1="0" y1="243" x2="860" y2="243"/>
-      <line x1="0" y1="260" x2="860" y2="260"/>
-      <line x1="0" y1="273" x2="860" y2="273"/>
-    </g>
-
-    <!-- Ambient glow blobs (animated) -->
-    <ellipse cx="180" cy="90" rx="220" ry="90" fill="#00D9FF" opacity="0.025">
-      <animate attributeName="opacity" values="0.025;0.06;0.025" dur="5s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="680" cy="80" rx="200" ry="80" fill="#7B2FFF" opacity="0.03">
-      <animate attributeName="opacity" values="0.03;0.08;0.03" dur="4.5s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="430" cy="180" rx="260" ry="60" fill="#00D9FF" opacity="0.015">
-      <animate attributeName="opacity" values="0.015;0.04;0.015" dur="6s" repeatCount="indefinite"/>
-    </ellipse>
-
-    <!-- Sweep bar -->
-    <rect x="-200" y="0" width="200" height="280" fill="url(#swpG)">
-      <animateTransform attributeName="transform" type="translate" from="-200 0" to="1060 0" dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4,0,0.6,1"/>
-    </rect>
-
-    <!-- Corner brackets — classic elegance -->
-    <g fill="none" stroke="#00D9FF" stroke-width="2" stroke-opacity="0.3" stroke-linecap="round">
-      <path d="M30 70 L14 70 L14 112 L30 112"/>
-      <path d="M830 70 L846 70 L846 112 L830 112"/>
-      <path d="M30 168 L14 168 L14 200 L30 200"/>
-      <path d="M830 168 L846 168 L846 200 L830 200"/>
-    </g>
-
-    <!-- ══ 3D NAME — layered depth ══ -->
-    <!-- Deepest shadow -->
-    <text x="437" y="104" text-anchor="middle" font-family="'Segoe UI','Arial Black',sans-serif" font-size="60" font-weight="900" fill="url(#nameS)" letter-spacing="2" opacity="0.2">Bahriddin Khamidov</text>
-    <text x="435" y="102" text-anchor="middle" font-family="'Segoe UI','Arial Black',sans-serif" font-size="60" font-weight="900" fill="url(#nameS)" letter-spacing="2" opacity="0.3">Bahriddin Khamidov</text>
-    <text x="433" y="100" text-anchor="middle" font-family="'Segoe UI','Arial Black',sans-serif" font-size="60" font-weight="900" fill="url(#nameS)" letter-spacing="2" opacity="0.45">Bahriddin Khamidov</text>
-    <text x="431" y="98"  text-anchor="middle" font-family="'Segoe UI','Arial Black',sans-serif" font-size="60" font-weight="900" fill="url(#nameS)" letter-spacing="2" opacity="0.6">Bahriddin Khamidov</text>
-    <!-- Glow bloom -->
-    <text x="430" y="96" text-anchor="middle" font-family="'Segoe UI','Arial Black',sans-serif" font-size="60" font-weight="900" fill="url(#nameG)" letter-spacing="2" filter="url(#neonGlow)" opacity="0.5">Bahriddin Khamidov</text>
-    <!-- Main crisp -->
-    <text x="430" y="96" text-anchor="middle" font-family="'Segoe UI','Arial Black',sans-serif" font-size="60" font-weight="900" fill="url(#nameG)" letter-spacing="2">
-      Bahriddin Khamidov
-      <animateTransform attributeName="transform" type="scale" additive="sum"
-        values="1 1;1.006 1.003;1 1" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45,0,0.55,1;0.45,0,0.55,1"/>
-    </text>
-
-    <!-- Animated underline -->
-    <rect x="200" y="108" width="460" height="2.5" fill="url(#ulG)" rx="1.5">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="width"   values="320;460;320" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4,0,0.6,1;0.4,0,0.6,1"/>
-      <animateTransform attributeName="transform" type="translate" values="70 0;0 0;70 0" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4,0,0.6,1;0.4,0,0.6,1"/>
-    </rect>
-
-    <!-- Role line -->
-    <text x="430" y="136" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#8892B0" letter-spacing="4">BACKEND DEVELOPER · NODE.JS · MONGODB · TYPESCRIPT</text>
-
-    <!-- Typing tagline -->
-    <text x="430" y="162" text-anchor="middle" font-family="'Courier New',monospace" font-size="14" fill="#00D9FF" letter-spacing="1" font-weight="700">🚀 Building scalable REST APIs...<animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></text>
-
-    <!-- Location pill -->
-    <rect x="310" y="175" width="240" height="30" rx="15" fill="#06101e" stroke="#00D9FF" stroke-width="0.9" stroke-opacity="0.5"/>
-    <circle cx="330" cy="190" r="5" fill="#22dd55">
-      <animate attributeName="r"       values="4;6.5;4" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.4;1"  dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="430" y="195" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#00D9FF" letter-spacing="1">🇺🇿  Samarqand, Uzbekistan</text>
-
-    <!-- Floating particles -->
-    <circle cx="65"  cy="45"  r="1.8" fill="#00D9FF" opacity="0.8" filter="url(#pGlow)"><animate attributeName="cy" values="45;32;45" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle cx="170" cy="30"  r="1.2" fill="#7B2FFF"  opacity="0.7"><animate attributeName="cy" values="30;20;30" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="740" cy="38"  r="1.8" fill="#00D9FF" opacity="0.8" filter="url(#pGlow)"><animate attributeName="cy" values="38;26;38" dur="3.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.7s" repeatCount="indefinite"/></circle>
-    <circle cx="820" cy="58"  r="1.2" fill="#A8FF78"  opacity="0.6"><animate attributeName="cy" values="58;44;58" dur="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="330" cy="22"  r="1.2" fill="#7B2FFF"  opacity="0.5"><animate attributeName="cy" values="22;12;22" dur="4.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.1;0.5" dur="4.2s" repeatCount="indefinite"/></circle>
-    <circle cx="550" cy="26"  r="1.8" fill="#00D9FF" opacity="0.6"><animate attributeName="cy" values="26;36;26" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0.1;0.6" dur="4s" repeatCount="indefinite"/></circle>
+ 
   </g>
 </svg>
+
+<!-- Typing animation — via readme-typing-svg (GitHub-safe external service) -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&width=600&height=45&lines=Building+scalable+REST+APIs...;Backend+Developer+%7C+Node.js+%2B+MongoDB;Open+to+Work+%F0%9F%9A%80;Clean+code.+Real+impact." alt="Typing SVG"/>
+
 
 <!-- ═══════════════════════ CONTACT BADGES — Official Icons ═══════════════════════ -->
 <br/>
@@ -219,13 +129,8 @@
   </a>
 
   <!-- ── OPEN TO WORK — Animated pulse ── -->
-  <rect x="438" y="6" width="164" height="38" rx="19" fill="#031408" stroke-width="1.6">
-    <animate attributeName="stroke" values="#22dd55;#00D9FF;#7B2FFF;#22dd55" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <circle cx="458" cy="25" r="5.5" fill="#22dd55" filter="url(#bGlow)">
-    <animate attributeName="r"       values="4.5;7;4.5" dur="1.6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.4;1"    dur="1.6s" repeatCount="indefinite"/>
-  </circle>
+  <rect x="438" y="6" width="164" height="38" rx="19" fill="#031408" stroke="#22dd55" stroke-width="1.6"/>
+  <circle cx="458" cy="25" r="5.5" fill="#22dd55" filter="url(#bGlow)"/>
   <text x="524" y="30" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#22dd55" letter-spacing="0.5">Open to Work</text>
 </svg>
 
@@ -255,12 +160,12 @@
   <text x="290" y="65" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">[~/about]</text>
   <text x="20" y="83" font-family="'Courier New',monospace" font-size="12" fill="#7B2FFF" font-weight="700">└─$</text>
   <text x="50" y="83" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6"> cat profile.yaml</text>
-  <text x="174" y="83" font-family="'Courier New',monospace" font-size="12" fill="#28CA41"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▌</text>
+  <rect x="174" y="72" width="8" height="13" rx="1" fill="#28CA41"/>
   <text x="20" y="109" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">name</text><text x="70" y="109" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">:     </text><text x="116" y="109" font-family="'Courier New',monospace" font-size="12" fill="#FFA657">"Bahriddin Khamidov"</text>
   <text x="20" y="127" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">age</text><text x="70" y="127" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">:      </text><text x="116" y="127" font-family="'Courier New',monospace" font-size="12" fill="#A8FF78">17</text><text x="142" y="127" font-family="'Courier New',monospace" font-size="12" fill="#444">  # Young. Hungry. Unstoppable.</text>
-  <text x="20" y="145" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">location</text><text x="90" y="145" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">: </text><text x="104" y="145" font-family="'Courier New',monospace" font-size="12" fill="#FFA657">"Samarqand, Uzbekistan 🇺🇿"</text>
+  <text x="20" y="145" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">location</text><text x="90" y="145" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">: </text><text x="104" y="145" font-family="'Courier New',monospace" font-size="12" fill="#FFA657">"Samarqand, Uzbekistan UZ"</text>
   <text x="20" y="163" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">role</text><text x="70" y="163" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">:     </text><text x="116" y="163" font-family="'Courier New',monospace" font-size="12" fill="#FFA657">"Backend Developer"</text>
-  <text x="20" y="181" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">status</text><text x="70" y="181" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">:   </text><circle cx="110" cy="177" r="4" fill="#22dd55"><animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/></circle><text x="120" y="181" font-family="'Courier New',monospace" font-size="12" fill="#22dd55">Open to Work — Full-time | Freelance</text>
+  <text x="20" y="181" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">status</text><text x="70" y="181" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">:   </text><circle cx="110" cy="177" r="4" fill="#22dd55"/><text x="120" y="181" font-family="'Courier New',monospace" font-size="12" fill="#22dd55">Open to Work — Full-time | Freelance</text>
   <text x="20" y="199" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">core</text><text x="70" y="199" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">:     [</text><text x="124" y="199" font-family="'Courier New',monospace" font-size="12" fill="#FFA657">Node.js, Express, MongoDB, JWT</text><text x="358" y="199" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">]</text>
   <text x="20" y="217" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">learning</text><text x="90" y="217" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">: [</text><text x="114" y="217" font-family="'Courier New',monospace" font-size="12" fill="#7B2FFF">Docker, PostgreSQL, Redis, Nginx, GraphQL</text><text x="428" y="217" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">]</text>
   <text x="20" y="235" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">motto</text><text x="70" y="235" font-family="'Courier New',monospace" font-size="12" fill="#CCD6F6">:    </text><text x="110" y="235" font-family="'Courier New',monospace" font-size="12" fill="#FFA657">"Clean code. Real impact. No excuses."</text>
@@ -268,7 +173,7 @@
   <text x="20" y="269" font-family="'Courier New',monospace" font-size="12" fill="#7B2FFF" font-weight="700">┌──(khamidoff633㉿backend-dev)</text>
   <text x="290" y="269" font-family="'Courier New',monospace" font-size="12" fill="#00D9FF">[~/about]</text>
   <text x="20" y="287" font-family="'Courier New',monospace" font-size="12" fill="#7B2FFF" font-weight="700">└─$</text>
-  <text x="50" y="287" font-family="'Courier New',monospace" font-size="12" fill="#28CA41"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>█</text>
+  <rect x="50" y="276" width="8" height="13" rx="1" fill="#28CA41"/>
 </svg>
 </div>
 
@@ -340,9 +245,7 @@
   </g>
   <text x="800" y="36" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#FF6C37">REST API</text>
 
-  <rect x="-200" y="0" width="200" height="68" fill="url(#scanG)">
-    <animateTransform attributeName="transform" type="translate" from="-200 0" to="1060 0" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
+
 </svg>
 
 <!-- FRONTEND ROW -->
@@ -508,37 +411,37 @@
   <text x="24" y="44" font-family="'Segoe UI',sans-serif" font-size="12" fill="#ccd6f6">Node.js</text>
   <text x="836" y="44" text-anchor="end" font-family="monospace" font-size="12" fill="#00D9FF" font-weight="700">90%</text>
   <rect x="24" y="50" width="812" height="7" rx="3.5" fill="#0D1117"/>
-  <rect x="24" y="50" width="1" height="7" rx="3.5" fill="url(#b1)"><animate attributeName="width" from="0" to="731" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.34,1.56,0.64,1"/></rect>
+  <rect x="24" y="50" width="731" height="7" rx="3.5" fill="url(#b1)"/>
 
   <!-- Express -->
   <text x="24" y="88" font-family="'Segoe UI',sans-serif" font-size="12" fill="#ccd6f6">Express.js</text>
   <text x="836" y="88" text-anchor="end" font-family="monospace" font-size="12" fill="#aaa" font-weight="700">85%</text>
   <rect x="24" y="94" width="812" height="7" rx="3.5" fill="#0D1117"/>
-  <rect x="24" y="94" width="1" height="7" rx="3.5" fill="url(#b2)"><animate attributeName="width" from="0" to="690" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.34,1.56,0.64,1"/></rect>
+  <rect x="24" y="94" width="690" height="7" rx="3.5" fill="url(#b2)"/>
 
   <!-- MongoDB -->
   <text x="24" y="132" font-family="'Segoe UI',sans-serif" font-size="12" fill="#ccd6f6">MongoDB</text>
   <text x="836" y="132" text-anchor="end" font-family="monospace" font-size="12" fill="#A8FF78" font-weight="700">83%</text>
   <rect x="24" y="138" width="812" height="7" rx="3.5" fill="#0D1117"/>
-  <rect x="24" y="138" width="1" height="7" rx="3.5" fill="url(#b3)"><animate attributeName="width" from="0" to="674" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.34,1.56,0.64,1"/></rect>
+  <rect x="24" y="138" width="674" height="7" rx="3.5" fill="url(#b3)"/>
 
   <!-- TypeScript -->
   <text x="24" y="176" font-family="'Segoe UI',sans-serif" font-size="12" fill="#ccd6f6">TypeScript</text>
   <text x="836" y="176" text-anchor="end" font-family="monospace" font-size="12" fill="#5aaae8" font-weight="700">75%</text>
   <rect x="24" y="182" width="812" height="7" rx="3.5" fill="#0D1117"/>
-  <rect x="24" y="182" width="1" height="7" rx="3.5" fill="url(#b4)"><animate attributeName="width" from="0" to="609" dur="2s" fill="freeze" calcMode="spline" keySplines="0.34,1.56,0.64,1"/></rect>
+  <rect x="24" y="182" width="609" height="7" rx="3.5" fill="url(#b4)"/>
 
   <!-- Docker -->
   <text x="24" y="220" font-family="'Segoe UI',sans-serif" font-size="12" fill="#ccd6f6">Docker</text>
   <text x="836" y="220" text-anchor="end" font-family="monospace" font-size="12" fill="#2aa6f0" font-weight="700">62%</text>
   <rect x="24" y="226" width="812" height="7" rx="3.5" fill="#0D1117"/>
-  <rect x="24" y="226" width="1" height="7" rx="3.5" fill="url(#b5)"><animate attributeName="width" from="0" to="503" dur="2.2s" fill="freeze" calcMode="spline" keySplines="0.34,1.56,0.64,1"/></rect>
+  <rect x="24" y="226" width="503" height="7" rx="3.5" fill="url(#b5)"/>
 
   <!-- PostgreSQL -->
   <text x="24" y="264" font-family="'Segoe UI',sans-serif" font-size="12" fill="#ccd6f6">PostgreSQL</text>
   <text x="836" y="264" text-anchor="end" font-family="monospace" font-size="12" fill="#4488bb" font-weight="700">55%</text>
   <rect x="24" y="270" width="812" height="7" rx="3.5" fill="#0D1117"/>
-  <rect x="24" y="270" width="1" height="7" rx="3.5" fill="url(#b6)"><animate attributeName="width" from="0" to="447" dur="2.4s" fill="freeze" calcMode="spline" keySplines="0.34,1.56,0.64,1"/></rect>
+  <rect x="24" y="270" width="447" height="7" rx="3.5" fill="url(#b6)"/>
 </svg>
 
 </div>
@@ -608,9 +511,7 @@
     </filter>
   </defs>
   <rect width="860" height="130" fill="#04080e"/>
-  <rect x="0" y="0" width="860" height="2" fill="url(#fGrad)" filter="url(#fGlow)">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="0" y="0" width="860" height="2" fill="url(#fGrad)" filter="url(#fGlow)" opacity="0.8"/>
   <text x="430" y="52" text-anchor="middle" font-family="'Segoe UI','Arial',sans-serif" font-size="17" font-weight="700" fill="#ffffff" letter-spacing="1">
     17 years old.  Backend Developer.  No excuses. 🚀
   </text>
@@ -620,10 +521,10 @@
   <text x="430" y="100" text-anchor="middle" font-family="monospace" font-size="12" fill="#00D9FF" letter-spacing="6">
     ⭐  Star my repos if they help you!  ⭐
   </text>
-  <circle cx="80"  cy="65" r="1.5" fill="#00D9FF" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
-  <circle cx="780" cy="55" r="1.5" fill="#7B2FFF"  opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
-  <circle cx="40"  cy="100" r="1"  fill="#A8FF78"  opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="1.9s" repeatCount="indefinite"/></circle>
-  <circle cx="820" cy="95"  r="1"  fill="#A8FF78"  opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="80"  cy="65" r="1.5" fill="#00D9FF" opacity="0.4"></circle>
+  <circle cx="780" cy="55" r="1.5" fill="#7B2FFF"  opacity="0.4"></circle>
+  <circle cx="40"  cy="100" r="1"  fill="#A8FF78"  opacity="0.3"></circle>
+  <circle cx="820" cy="95"  r="1"  fill="#A8FF78"  opacity="0.3"></circle>
 </svg>
 
 </div>
